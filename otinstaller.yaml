@@ -24,7 +24,7 @@ outputs:
 runtime:
   kind: docker
   # Filled in by the release workflow with the pushed image's digest.
-  image: ghcr.io/osintverse-community/octosuite@sha256:8e3c016a2ff3fcb94c36095d15ff2c32f1a127ed0f6dab9878e7e694576b4112
+  image: ghcr.io/osintverse-community/octosuite@sha256:65b0c8f136df24bfa5b3d87e4e4f67af91780a46b60be786f9ab1be480f665c4
   platforms: [linux/amd64, linux/arm64]
   command: ["octosuite", "--json", "user", "{username}"]
   output_format: text
